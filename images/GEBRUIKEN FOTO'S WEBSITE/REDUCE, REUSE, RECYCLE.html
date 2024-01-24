@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REDUCE, REUSE, RECYCLE</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <header>
+       <a class="top-bar" href="index.html" ><img src="images/logo.png" alt="logo"></a>
+            
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="overons.html">OVER ONS</a></li>
+                <li><a href="rrr.html">REDUCE, REUSE, RECYCLE</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+
+        <img src="images/homepaginaa.png" alt="Foto van een tas">
+    </header>
+
+    <main>
+    <section>
+        <article>
+            <h1>REDUCE, REUSE, RECYCLE AND REPEAT</h1>
+            <P> Stap binnen in de wereld van "Bij Ons Vintage," waar stijl en duurzaamheid samenkomen. Ontdek unieke fashion statements en help de planeet, stuk voor stuk. Welkom in onze eco-bewuste community. </P>
+        
+        <a href="rrr.html">
+            <button type="button">REDUSE, REUSE, RECYCLE</button>
+        </a>
+
+        </article>
+    </section>
+
+
+    <figure>
+        <img src="images/reduse.png" alt="image" width="150px" height="150px"> 
+    </figure>
+    
+    <figure>
+        <img src="images/reuse.png" alt="image" width="150px" height="150px"> 
+    </figure>
+    
+    <figure>
+        <img src="Images/recycle.png" alt="image" width="150px" height="150px"> 
+    </figure>
+
+<article>
+    <img src="images/JPG FOTOS/IMG_1991.jpg" alt="image" width="150px" height="150px">
+    <a href="overons.html">
+        <button type="button">OVER ONS</button>
+        </a>
+        <br>
+    <p>Wij zijn meer dan een winkel; we zijn een viering van tijdloze stijl en duurzame keuzes. Ons aanbod van zorgvuldig geselecteerde vintage kleding vertelt verhalen en ademt karakter. Bij elke aankoop bij ons draag je bij aan het verminderen van de impact op het milieu. Ontdek unieke stukken en omarm een levensstijl die het verleden koestert en de toekomst omarmt. Duurzaamheid, stijl, en geschiedenis komen samen in onze vintage schatkamer. Welkom bij "Bij Ons Vintage" - waar elke keuze een positieve impact maakt.</p>
+</article>
+
+<section>
+    <figure>
+        <img src="images/JPG FOTOS/displayeen.jpg" alt="image" width="150px" height="150px"> 
+    </figure>
+    
+    <figure>
+        <img src="images/JPG FOTOS/displaytwee.jpg" alt="image" width="150px" height="150px"> 
+    </figure>
+    
+    <figure>
+        <img src="Images/JPG FOTOS/displaydrie.jpg" alt="image" width="150px" height="150px"> 
+    </figure>
+
+    <a href="contact.html">
+        <button type="button">CONTACT</button>
+        </a>
+
+</section>
+    </main>
+    
+    <footer>
+<section class="footer">
+<h2> Contact </h2>
+<h3> Algemeen </h3>
+
+    <ul>
+        <li> REDUCE, REUSE, RECYCLE </li>
+        <li> Reestraat 13</li>
+        <li> 1016 DM Amsterdam </li>
+        <li> T: 06 43183852 </li>
+    </ul>
+<p> &copy; 2023 copyright to Bo Runderkamp </p>
+
+</section>
+    </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
